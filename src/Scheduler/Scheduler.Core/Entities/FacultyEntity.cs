@@ -3,5 +3,5 @@
 public class FacultyEntity : BaseEntity
 {
     public string Name { get; set; }
-    public IEnumerable<GroupEntity> Groups { get; set; }
+    public ICollection<GroupEntity> Groups { get; set; }
 }
