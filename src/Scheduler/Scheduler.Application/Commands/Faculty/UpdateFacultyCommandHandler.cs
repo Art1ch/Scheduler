@@ -5,7 +5,7 @@ using Scheduler.Core.Entities;
 
 namespace Scheduler.Application.Commands.Faculty;
 
-public sealed class UpdateFacultyCommandHandler : IRequestHandler<UpdateFacultyCommand, Unit>
+internal sealed class UpdateFacultyCommandHandler : IRequestHandler<UpdateFacultyCommand, Unit>
 {
     private readonly IFacultyRepository _facultyRepository;
     private readonly IMapper _mapper;

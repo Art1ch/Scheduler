@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Lesson\" />
     <Folder Include="Commands\Schedule\" />
     <Folder Include="Commands\SchoolDay\" />
   </ItemGroup>

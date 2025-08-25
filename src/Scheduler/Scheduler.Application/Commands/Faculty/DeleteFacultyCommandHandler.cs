@@ -3,7 +3,7 @@ using Scheduler.Application.Contracts.Repositories;
 
 namespace Scheduler.Application.Commands.Faculty;
 
-public sealed class DeleteFacultyCommandHandler : IRequestHandler<DeleteFacultyCommand, Unit>
+internal sealed class DeleteFacultyCommandHandler : IRequestHandler<DeleteFacultyCommand, Unit>
 {
     private readonly IFacultyRepository _facultyRepository;
 

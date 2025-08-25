@@ -5,7 +5,7 @@ using Scheduler.Application.Responses.Faculty;
 
 namespace Scheduler.Application.Queries.Faculty;
 
-public sealed class GetFacultyQueryHandler : IRequestHandler<GetFacultyQuery, GetFacultyResponse>
+internal sealed class GetFacultyQueryHandler : IRequestHandler<GetFacultyQuery, GetFacultyResponse>
 {
     private readonly IFacultyRepository _facultyRepository;
     private readonly IMapper _mapper;
