@@ -1,4 +1,6 @@
-﻿namespace Scheduler.Application.Responses.Group;
+﻿using Scheduler.Application.Responses.ShortInfos;
+
+namespace Scheduler.Application.Responses.Group;
 
 public record GetGroupFullResponse(
     int Id,

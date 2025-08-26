@@ -1,4 +1,5 @@
-﻿using Scheduler.Core.Enums;
+﻿using Scheduler.Application.Responses.ShortInfos;
+using Scheduler.Core.Enums;
 
 namespace Scheduler.Application.Responses.Lesson;
 

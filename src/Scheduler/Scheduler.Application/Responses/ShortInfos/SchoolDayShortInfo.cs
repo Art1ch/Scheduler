@@ -1,9 +1,8 @@
 ﻿using Scheduler.Core.Enums;
 
-namespace Scheduler.Application.Responses.Lesson;
+namespace Scheduler.Application.Responses.ShortInfos;
 
 public record SchoolDayShortInfo(
-    int Id,
     DayOfWeek DayOfWeek,
     WeekParity WeekParity,
     int ScheduleId

@@ -1,4 +1,4 @@
-﻿namespace Scheduler.Application.Responses.Group;
+﻿namespace Scheduler.Application.Responses.ShortInfos;
 
 public sealed record FacultyShortInfo(
     int Id,
