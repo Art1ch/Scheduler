@@ -7,5 +7,5 @@ public interface IGroupRepository : IRepository<GroupEntity>
     Task<GroupEntity> GetWithFacultyAsync(int id, CancellationToken cancellationToken = default);
     Task<GroupEntity> GetWithScheduleAsync(int id, CancellationToken cancellationToken = default);
     Task<GroupEntity> GetFullAsync(int id, CancellationToken cancellationToken = default);
-    Task<IQueryable<GroupEntity>> GetQueryByFacultyIdAsync(int facultyId, CancellationToken cancellationToken = default);
+    Task<IEnumerable<GroupEntity>> GetAllGroupsByFacultyId(int facultyId, CancellationToken cancellationToken = default);
 }

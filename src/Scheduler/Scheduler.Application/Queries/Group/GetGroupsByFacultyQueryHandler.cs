@@ -26,10 +26,8 @@ internal sealed class GetGroupsByFacultyQueryHandler
     )
     {
         var facultyId = query.Request.FacultyId;
-        var groupsQuery = await _groupRepository.GetQueryByFacultyIdAsync(facultyId, cancellationToken);
-        var response = groupsQuery
-            .Select(x => new GetGroupResponse(x.Id, x.Name))
-            .AsEnumerable();
+        var entities = await _groupRepository.GetAllGroupsByFacultyId(facultyId, cancellationToken);
+        var response = _mapper.Map<List<GetGroupResponse>>(entities);
 
         return response;
     }
