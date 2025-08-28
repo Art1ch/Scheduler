@@ -9,9 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Application", "Sc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scheduler", "Scheduler", "{34EE2CA5-A7DA-4C07-B003-F39AFE012107}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.UI", "Scheduler\Scheduler.UI\Scheduler.UI.csproj", "{C87E5905-08FA-4E35-9534-F66ED3BA8A39}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Infrastructure", "Scheduler\Scheduler.Infrastructure\Scheduler.Infrastructure.csproj", "{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Infrastructure", "Scheduler\Scheduler.Infrastructure\Scheduler.Infrastructure.csproj", "{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +25,6 @@ Global
 		{6629823B-E6B1-41E7-B5B1-0E4D87C04619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6629823B-E6B1-41E7-B5B1-0E4D87C04619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6629823B-E6B1-41E7-B5B1-0E4D87C04619}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C87E5905-08FA-4E35-9534-F66ED3BA8A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C87E5905-08FA-4E35-9534-F66ED3BA8A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C87E5905-08FA-4E35-9534-F66ED3BA8A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C87E5905-08FA-4E35-9534-F66ED3BA8A39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,7 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{871D1DF6-EC59-40F9-B785-81480E9ED487} = {34EE2CA5-A7DA-4C07-B003-F39AFE012107}
 		{6629823B-E6B1-41E7-B5B1-0E4D87C04619} = {34EE2CA5-A7DA-4C07-B003-F39AFE012107}
-		{C87E5905-08FA-4E35-9534-F66ED3BA8A39} = {34EE2CA5-A7DA-4C07-B003-F39AFE012107}
 		{764AC6F0-7606-4A59-8F04-E1B1ECE3BE6A} = {34EE2CA5-A7DA-4C07-B003-F39AFE012107}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
